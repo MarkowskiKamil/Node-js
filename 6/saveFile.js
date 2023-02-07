@@ -11,4 +11,3 @@ const saveFile = (filename, data) => {
   };
 
   module.exports = saveFile;
-  module.exports = saveFile;
