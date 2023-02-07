@@ -6,7 +6,7 @@ const getFollowers = (login) => {
     .get(url)
     .then((response) => response.data)
     .catch((error) => {
-      console.log("Followers nor found", error);
+      console.log("Followers not found", error);
     });
 };
 

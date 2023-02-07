@@ -7,7 +7,7 @@ const getUser = (login) => {
     return axios.get(url)
     .then((response) => response.data)
     .catch((error) => {
-      console.log("User nor found", error)});
+      console.log("User not found", error)});
   };
   
  
