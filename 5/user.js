@@ -1,5 +1,4 @@
 //This file contains functions used in main app
-const request = require("request");
 const axios = require("axios");
 
 const getUser = (login) => {

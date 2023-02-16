@@ -11,4 +11,4 @@ const getRainbow = (Arr) => {
 };
 
 console.log(getRainbow(myArray));
-// Example solution: abcdefgh123
+
